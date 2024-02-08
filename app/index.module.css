@@ -1,0 +1,19 @@
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .thead th, .tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+  }
+  .tr th, .tre td {
+    background-color:white;
+  }
+  
+  .emptyCell::after {
+    width: 200px;
+  }

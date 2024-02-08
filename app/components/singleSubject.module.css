@@ -1,0 +1,134 @@
+
+.mainDiv {
+    background-color: #F4F4F4;
+    border-radius: 0.5em;
+    text-align: left;
+    width: 200px;
+    cursor: pointer;
+}
+
+.info *{
+    padding: 0;
+    margin: 0;
+}
+.info {
+    margin:0 1em ;
+    margin-bottom: 1em;
+    padding: 1.5em 0;
+}
+.subject {
+    font-weight: 600;
+}
+.duration {
+    margin: 0.4em 0;
+    font-size: 0.85em;
+}
+.imgBox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0.5em 0;
+}
+.imgBox img {
+aspect-ratio: 1/1;
+width: 2em;
+margin: 0 0.5em 0 0;
+background-color: rgb(165, 239, 180);
+border: 1px solid rgb(131, 131, 131);
+border-radius: 50%;
+}
+.level {
+    margin: 0.5em 0;
+}
+.level span {
+    font-size: 0.9em;
+    padding: 1px;
+    border-radius: 1em;
+    font-weight: bold;
+    padding: 2px 7px;
+}
+.advanced {
+    background: #FFDC94
+}
+.normal {
+    background-color: #A4D563;;
+}
+.course {
+    display: flex;
+    gap:4px;
+   
+}
+.course div {
+    aspect-ratio: 1/1;
+    width: 10px;
+    height: 10px;
+    margin: 5px 1px 5px 0;
+    border-radius: 50%;
+}
+.whiteGreen {
+    background: #CAEBB5;
+}
+.green {
+    background: #A7D969;
+}
+.darkGreen {
+    background: #89C954;
+}
+.whiteOrange {
+    background: #FDDF97;
+}
+.orange {
+    background: #FFCF6B;
+}
+.darkOrange {
+    background: #FABB3A;
+}
+.red {
+    background: #FF6850;
+}
+
+
+
+
+/* popup */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.432); 
+    z-index: 1;
+  }
+  
+  .fullScreenPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    z-index: 2;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fullScreenPopup  button {
+    font-size: 1.1em;
+    padding: 0.5em 3em;
+    cursor: pointer;
+    background: #89C954;
+    border-radius: 0.4em;
+    color: white;
+    border-color: rgba(15, 15, 15, 0.53);
+  }
+  .fullScreenPopup  button:hover {
+    background: #FF6850;
+    transition: all 1s ease-out;
+  }
+  .fullScreenPopup span {
+    font-weight: bold;
+  }
+  
