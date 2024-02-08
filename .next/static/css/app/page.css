@@ -1,0 +1,168 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.page_main__nw1Wk {
+    max-width: 120px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/components/singleSubject.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+
+.singleSubject_mainDiv__VcXD6 {
+    background-color: #F4F4F4;
+    border-radius: 0.5em;
+    text-align: left;
+    width: 200px;
+    cursor: pointer;
+}
+
+.singleSubject_info__iYkLC *{
+    padding: 0;
+    margin: 0;
+}
+.singleSubject_info__iYkLC {
+    margin:0 1em ;
+    margin-bottom: 1em;
+    padding: 1.5em 0;
+}
+.singleSubject_subject__TMiif {
+    font-weight: 600;
+}
+.singleSubject_duration__xT_Wa {
+    margin: 0.4em 0;
+    font-size: 0.85em;
+}
+.singleSubject_imgBox__mJ6Sr {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0.5em 0;
+}
+.singleSubject_imgBox__mJ6Sr img {
+aspect-ratio: 1/1;
+width: 2em;
+margin: 0 0.5em 0 0;
+background-color: rgb(165, 239, 180);
+border: 1px solid rgb(131, 131, 131);
+border-radius: 50%;
+}
+.singleSubject_level__Wir1k {
+    margin: 0.5em 0;
+}
+.singleSubject_level__Wir1k span {
+    font-size: 0.9em;
+    padding: 1px;
+    border-radius: 1em;
+    font-weight: bold;
+    padding: 2px 7px;
+}
+.singleSubject_advanced__wUDHO {
+    background: #FFDC94
+}
+.singleSubject_normal__VDZRY {
+    background-color: #A4D563;;
+}
+.singleSubject_course__t_zLx {
+    display: flex;
+    gap:4px;
+   
+}
+.singleSubject_course__t_zLx div {
+    aspect-ratio: 1/1;
+    width: 10px;
+    height: 10px;
+    margin: 5px 1px 5px 0;
+    border-radius: 50%;
+}
+.singleSubject_whiteGreen__iPuNm {
+    background: #CAEBB5;
+}
+.singleSubject_green__QBs3K {
+    background: #A7D969;
+}
+.singleSubject_darkGreen__jtSTM {
+    background: #89C954;
+}
+.singleSubject_whiteOrange__ibB8u {
+    background: #FDDF97;
+}
+.singleSubject_orange__5fnvD {
+    background: #FFCF6B;
+}
+.singleSubject_darkOrange__WTBt8 {
+    background: #FABB3A;
+}
+.singleSubject_red__oqMFw {
+    background: #FF6850;
+}
+
+
+
+
+/* popup */
+.singleSubject_overlay__K5OGU {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.432); 
+    z-index: 1;
+  }
+  
+  .singleSubject_fullScreenPopup__Z4kVk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    z-index: 2;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .singleSubject_fullScreenPopup__Z4kVk  button {
+    font-size: 1.1em;
+    padding: 0.5em 3em;
+    cursor: pointer;
+    background: #89C954;
+    border-radius: 0.4em;
+    color: white;
+    border-color: rgba(15, 15, 15, 0.53);
+  }
+  .singleSubject_fullScreenPopup__Z4kVk  button:hover {
+    background: #FF6850;
+    transition: all 1s ease-out;
+  }
+  .singleSubject_fullScreenPopup__Z4kVk span {
+    font-weight: bold;
+  }
+  
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/index.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+  
+  .app_table__R_PBu {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .app_thead__eXoCk th, .app_tbody__9Usuf td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+  }
+  .app_tr__KOaHJ th, .app_tre__377VT td {
+    background-color:white;
+  }
+  
+  .app_emptyCell__uOXFL::after {
+    width: 200px;
+  }
